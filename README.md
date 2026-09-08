@@ -14,21 +14,21 @@ This script provides two industry-grade workflows to fix this issue directly in 
 ---
 
 ## ✨ Features
-* 📊 **Interactive Menu:** Choose between the high-speed filter or the high-end mask formula right at the start.
-* 🎨 **Color-Coded CLI:** Interactive turquoise questions with clear green/red default value markers.
-* 🛡️ **100% Integrity Check:** Automatically uses `ffprobe` to scan the output directory. If it detects a broken or partially rendered video (e.g., from a previously aborted process), it **automatically overwrites** and repairs it. It only asks for confirmation on 100% complete files.
-* 💤 **Auto-Shutdown Option:** Prompt at startup to automatically shut down the PC once the whole queue is done.
-* 🔔 **Audio Notification:** Plays a native Windows system chime upon completion.
+* 🧠 **Smart Auto-Hardware Detection:** Automatically scans for NVIDIA GPUs to enable full acceleration (CUDA/NVENC), falling back to optimized CPU mode (`libx264`, `-crf 18`) if unavailable.
+* 📊 **Interactive Menu:** Select between high-speed filters or high-end mask formulas instantly.
+* 🎨 **Color-Coded CLI:** Clear turquoise prompts with intuitive green/red defaults.
+* 🛡️ **100% Integrity Check:** Uses `ffprobe` to auto-repair or overwrite corrupted/aborted video outputs, prompting only for fully complete files.
+* 💤 **Auto-Shutdown Option:** Optional prompt to shut down the PC after the queue finishes.
+* 🔔 **Audio Notification:** Plays a Windows system chime upon completion.
 
 ---
 
 ## 🛠️ System Requirements & Setup
 1. **Operating System:** Windows 10 / 11.
-2. **Hardware:** NVIDIA GeForce RTX Graphics Card (Optimized for RTX 3050 and up using `h264_nvenc`).
-3. **Software:** **FFmpeg Git-Master-Build (Crucial!)**. 
-   * Standard release builds (like *FFmpeg 8.0.1 Essentials*) will **not** work and will cause syntax errors. 
-   * You strictly need the latest Git-Master-Build (e.g., from BtbN or Gyan.dev Git Master) that includes full **Vulkan API** and **CUDA/NVENC** hardware-acceleration libraries.
-   * Ensure `ffmpeg`, `ffplay`, and `ffprobe` are added to your Windows **System Environment Path** (without a trailing backslash!).
+2. **Hardware:** 
+   * **NVIDIA Mode:** GeForce RTX/GTX card (`h264_nvenc`/`cuda`).
+   * **CPU Mode:** Any Intel/AMD processor fallback.
+3. **Software:** **FFmpeg Git-Master-Build** (Standard releases like *FFmpeg 8.0.1* will cause syntax errors; requires builds with Vulkan and CUDA/NVENC support). Ensure `ffmpeg`, `ffplay`, and `ffprobe` are in your Windows **System Environment Path**.
 
 ---
 
