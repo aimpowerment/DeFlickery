@@ -3,9 +3,9 @@ setlocal enabledelayedexpansion
 chcp 65001 > nul
 cls
 
-echo ===================================================
-echo   SMART DEFLICKER BATCH PROCESS (AUTO-HARDWARE)
-echo ===================================================
+echo =================================================================================================
+echo   SMART DEFLICKER BATCH PROCESS (AUTO-HARDWARE) by Alberto Sono https://www.albertosono.page.gd
+echo =================================================================================================
 echo.
 
 :: 1. SAFE AUTO-DETECT NVIDIA GPU VIA POWERSHELL
