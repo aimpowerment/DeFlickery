@@ -15,9 +15,10 @@ This script provides two industry-grade workflows to fix this issue directly in 
 
 ## ✨ Features
 * 🧠 **Smart Auto-Hardware Detection:** Automatically scans for NVIDIA GPUs to enable full acceleration (CUDA/NVENC), falling back to optimized CPU mode (`libx264`, `-crf 18`) if unavailable.
+* 🔍 **Phase 1: Pre-Render Diagnostics:** Instantly scans the folder before processing and lists the exact status of all files (`[COMPLETE]`, `[INCOMPLETE]`, or `[NEW FILE]`) in a clean, color-coded overview.
+* 🛡️ **Phase 2: Intelligent Task Queue:** Uses `ffprobe` duration matching to detect aborted or corrupted files. Incomplete files are auto-repaired, while 100% finished files are safely skipped without user intervention.
 * 📊 **Interactive Menu:** Select between high-speed filters or high-end mask formulas instantly.
-* 🎨 **Color-Coded CLI:** Clear turquoise prompts with intuitive green/red defaults.
-* 🛡️ **100% Integrity Check:** Uses `ffprobe` to auto-repair or overwrite corrupted/aborted video outputs, prompting only for fully complete files.
+* 🎨 **Color-Coded CLI:** Clear turquoise prompts with intuitive green, red, and orange indicators.
 * 💤 **Auto-Shutdown Option:** Optional prompt to shut down the PC after the queue finishes.
 * 🔔 **Audio Notification:** Plays a Windows system chime upon completion.
 
