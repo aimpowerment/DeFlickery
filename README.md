@@ -1,4 +1,4 @@
-# RTX 3050 High-End Deflicker Batch Script for Windows 🚀
+# High-End Deflicker Batch Script for Windows 🚀
 
 A highly optimized Windows Batch script (`.bat`) utilizing **FFmpeg** and **NVIDIA CUDA/NVENC** (tested on an RTX 3050 Laptop GPU) to eliminate aggressive **50Hz power-line / theater light flickering** from **60 FPS (NTSC)** video recordings.
 
@@ -36,6 +36,19 @@ This script provides two industry-grade workflows to fix this issue directly in 
 1. Copy the `deflicker-rtx.bat` file into the folder containing your flimmery `.mov` or `.mp4` video files.
 2. Double-click the script.
 3. Choose your filter, decide on the auto-shutdown option, and let your RTX card do the heavy lifting in the background! Cleaned files will be saved in a new subfolder called `Flimmerfrei_Output`.
+
+---
+
+---
+
+## 🎥 Pro-Tip: How to Avoid Flickering in the Future (The PAL Rule)
+To prevent 50Hz light flickering from getting baked into your footage in the first place when shooting in Europe (or any other 50Hz grid region), configure your camera with the following settings **before** pressing record:
+
+1. **Switch to PAL Mode:** Go to your camera or smartphone video settings and change the video standard from NTSC to **PAL**.
+2. **Choose the Right Framerate:** Shoot at either **25 FPS** (for a cinematic look) or **50 FPS** (for smooth movement/slow-motion).
+3. **Lock your Shutter Speed:** Set your shutter manually to exactly **1/50s** (when shooting 25 FPS) or **1/100s** (when shooting 50 FPS).
+
+By aligning your camera's frame rate with the 50Hz pulse of the power grid, your sensor catches the exact same light phase in every single frame, resulting in perfectly stable, flicker-free footage straight out of the camera!
 
 ---
 *Created out of pure frustration with church/theater lighting interference. Feel free to contribute, fork, or open an issue!*
