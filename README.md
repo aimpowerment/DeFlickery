@@ -34,6 +34,7 @@ This script provides two industry-grade workflows to fix this issue directly in 
    * **CPU Mode:** Any Intel/AMD processor fallback.
 3. **Software:** **FFmpeg Git-Master-Build** (Standard releases like *FFmpeg 8.0.1* will cause syntax errors; requires builds with Vulkan and CUDA/NVENC support). Ensure `ffmpeg`, `ffplay`, and `ffprobe` are in your Windows **System Environment Path**.
 
+[FFMPEG Download](https://github.com/btbn/ffmpeg-builds/releases)
 ---
 
 ## 🚀 How to Use
