@@ -3,10 +3,17 @@ setlocal enabledelayedexpansion
 chcp 65001 > nul
 cls
 
-echo =================================================================================================
-echo   SMART DEFLICKER BATCH PROCESS (AUTO-HARDWARE) by Alberto Sono https://www.albertosono.page.gd
-echo =================================================================================================
+echo ===================================================
+echo   ___  ____ ____ _    _ ____ _  _ ____ ____ ____ 
+echo   ^|  \ ^|___ ^|___ ^|    ^| ^|___ ^|_/  ^|___ ^|__/ [^|]  
+echo   ^|__/ ^|___ ^|    ^|___ ^| ^|___ ^| \_ ^|___ ^|  \  ^|   
+powershell -Command "Write-Host '          BY ALBERTO SONO | VERSION 1.0          ' -ForegroundColor DarkGray"
+powershell -Command "Write-Host '             🌐 albertosono.page.gd              ' -ForegroundColor Cyan"
+echo ===================================================
+echo   RTX 3050 HIGH-END BATCH DEFLICKER PROCESS
+echo ===================================================
 echo.
+
 
 :: 1. SAFE AUTO-DETECT NVIDIA GPU VIA POWERSHELL
 set "gpu_mode=CPU"
