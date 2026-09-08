@@ -1,5 +1,5 @@
 # DeFlickery 🚀
-### High-End Deflicker Batch Script for Windows, Linux and Mac
+### High-End Deflicker Script Family for Windows, Linux and Mac
 
 A highly optimized Windows Batch script (`.bat`) utilizing **FFmpeg** and **NVIDIA CUDA/NVENC** (tested on an RTX 3050 Laptop GPU) to eliminate aggressive **50Hz power-line / theater light flickering** from **60 FPS (NTSC)** video recordings.
 
@@ -38,9 +38,9 @@ This script provides two industry-grade workflows to fix this issue directly in 
 
 Copy the script for your operating system into the folder containing your `.mov` or `.mp4` video files. Upon launch, it will guide you through 3 options (Filter selection, Overwrite policy, and Auto-shutdown). All cleaned files will be stored safely in the `flickerfree_output` subfolder.
 
-*   **🪟 Windows:** Double-click `deflicker-rtx.bat`.
-*   **🐧 Linux:** Open your terminal in the video folder, make it executable via `chmod +x deflicker.sh` and run `./deflicker.sh`.
-*   **🍎 macOS:** Open your terminal in the video folder, make it executable via `chmod +x deflicker-mac.sh` and run `./deflicker-mac.sh`. (Utilizes high-speed Apple Silicon *VideoToolbox* acceleration).
+*   **🪟 Windows:** Double-click `deflickery-win.bat`.
+*   **🐧 Linux:** Open your terminal in the video folder, make it executable via `chmod +x deflickery-linux.sh` and run `./deflickery-linux.sh`.
+*   **🍎 macOS:** Open your terminal in the video folder, make it executable via `chmod +x deflickery-mac.sh` and run `./deflickery-mac.sh`. (Utilizes high-speed Apple Silicon *VideoToolbox* acceleration).
 
 ---
 
