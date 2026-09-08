@@ -36,7 +36,7 @@ This script provides two industry-grade workflows to fix this issue directly in 
 ## 🚀 How to Use
 1. Copy the `deflicker-rtx.bat` file into the folder containing your flimmery `.mov` or `.mp4` video files.
 2. Double-click the script.
-3. Choose your filter, decide on the auto-shutdown option, and let your RTX card do the heavy lifting in the background! Cleaned files will be saved in a new subfolder called `Flimmerfrei_Output`.
+3. Choose your filter, decide on the auto-shutdown option, and let the script do the heavy lifting! Cleaned files will be saved in a new subfolder called `flickerfree_output`.
 
 ---
 
