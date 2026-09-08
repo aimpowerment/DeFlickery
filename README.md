@@ -27,13 +27,13 @@ This script provides two industry-grade workflows to fix this issue directly in 
 2. **Hardware:** NVIDIA GeForce RTX Graphics Card (Optimized for RTX 3050 and up using `h264_nvenc`).
 3. **Software:** **FFmpeg Git-Master-Build (Crucial!)**. 
    * Standard release builds (like *FFmpeg 8.0.1 Essentials*) will **not** work and will cause syntax errors. 
-   * You strictly need the latest tagesaktuelles Git-Master-Build (e.g., from BtbN or Gyan.dev Git Master) that includes full **Vulkan API** and **CUDA/NVENC** hardware-acceleration libraries.
+   * You strictly need the latest Git-Master-Build (e.g., from BtbN or Gyan.dev Git Master) that includes full **Vulkan API** and **CUDA/NVENC** hardware-acceleration libraries.
    * Ensure `ffmpeg`, `ffplay`, and `ffprobe` are added to your Windows **System Environment Path** (without a trailing backslash!).
 
 ---
 
 ## 🚀 How to Use
-1. Copy the `entflackern.bat` file into the folder containing your flimmery `.mov` or `.mp4` video files.
+1. Copy the `deflicker-rtx.bat` file into the folder containing your flimmery `.mov` or `.mp4` video files.
 2. Double-click the script.
 3. Choose your filter, decide on the auto-shutdown option, and let your RTX card do the heavy lifting in the background! Cleaned files will be saved in a new subfolder called `Flimmerfrei_Output`.
 
