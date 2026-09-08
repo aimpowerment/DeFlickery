@@ -1,3 +1,4 @@
+<img width="1280" height="640" alt="deflickery" src="https://github.com/user-attachments/assets/86f1413a-3e44-407d-ac47-7d5ae844ada3" />
 # DeFlickery 🚀
 ### High-End Deflicker Script Family for Windows, Linux and Mac
 
