@@ -3,8 +3,8 @@
 ### DeFlickery 📷
 ### High-End Deflicker Script Family for Windows, Linux and Mac
 
-A highly optimized Windows Batch script (`.bat`) utilizing **FFmpeg** and **NVIDIA CUDA/NVENC** (tested on an RTX 3050 Laptop GPU) to eliminate aggressive **50Hz power-line / theater light flickering** from **60 FPS (NTSC)** video recordings.
-
+High-End Deflicker Script Family for Windows, Linux and Mac utilizing FFmpeg and NVIDIA CUDA/NVENC (tested on an RTX 3050 Laptop GPU) to eliminate aggressive light flickering from video recordings.
+ 
 ## 💡 The Problem: 50Hz Light vs. 60 FPS Camera
 When shooting video at 60 FPS (NTSC standard) in regions with a 50Hz power grid (like Europe/PAL), artificial lights and theater spotlights pulse 50 times per second. This frequency mismatch causes an interference pattern resulting in rolling light waves or severe flickering horizontal bands across the video frames. Standard deflicker filters fail because the brightness changes locally rather than globally.
 
