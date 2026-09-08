@@ -34,12 +34,22 @@ This script provides two industry-grade workflows to fix this issue directly in 
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Use (Windows)
 1. Copy the `deflicker-rtx.bat` file into the folder containing your flimmery `.mov` or `.mp4` video files.
 2. Double-click the script.
 3. Choose your filter, decide on the auto-shutdown option, and let the script do the heavy lifting! Cleaned files will be saved in a new subfolder called `flickerfree_output`.
 
 ---
+### 🐧 Linux Usage
+1. Copy the `deflicker.sh` file into your video folder.
+2. Open your terminal in that folder and make the script executable:
+   ```bash
+   chmod +x deflicker.sh
+   ```
+3. Run the script:
+   ```bash
+   ./deflicker.sh
+   ```
 
 ---
 
